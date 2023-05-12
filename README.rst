@@ -7,7 +7,7 @@ The official github for IJCAI 2023 paper "Group Sparse Optimal Transport for Spa
 
 
 
-1. Install the dependencies::
+1. Install the dependencies
 ------------
 
     # via pip
@@ -20,7 +20,7 @@ The official github for IJCAI 2023 paper "Group Sparse Optimal Transport for Spa
     conda install numpy scipy POT matplotlib
 
 
-2. Run the code::
+2. Run the code
 ------------
 Example
 .. code-block:: python
