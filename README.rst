@@ -23,6 +23,7 @@ The official github for IJCAI 2023 paper "Group Sparse Optimal Transport for Spa
 2. Run the code
 ------------
 Example
+
 .. code-block:: python
 
     from GSOT import get_transport_plan,get_edges_from_plan
@@ -66,6 +67,8 @@ Example
     _,max_profit = evaluate_net_profit(full_edges,simulator.cost, supply, test_demand)
 
     print("full-profit:",max_profit)
+
+    
 
 
 
