@@ -6,13 +6,9 @@ Group Sparse Optimal Transport (GSOT)
 The official github for IJCAI 2023 paper "Group Sparse Optimal Transport for Sparse Process Flexibility Design"
 
 
-Installation
-------------
-
-This project can be installed from its git repository. 
-
 
 1. Install the dependencies::
+------------
 
     # via pip
 
@@ -24,8 +20,9 @@ This project can be installed from its git repository.
     conda install numpy scipy POT matplotlib
 
 
-2. Run the code 
-    Example
+2. Run the code::
+------------
+Example
 .. code-block:: python
 
     from GSOT import get_transport_plan,get_edges_from_plan
