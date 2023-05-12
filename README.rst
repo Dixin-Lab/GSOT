@@ -3,12 +3,29 @@
 Group Sparse Optimal Transport (GSOT)
 =========
 
-Python implementation of group sparse optimal transport
+The official github for IJCAI 2023 paper "Group Sparse Optimal Transport for Sparse Process Flexibility Design"
 
 
-Example
---------
+Installation
+------------
 
+This project can be installed from its git repository. 
+
+
+1. Install the dependencies::
+
+    # via pip
+
+    pip install numpy scipy  POT matplotlib
+
+
+    # via conda
+
+    conda install numpy scipy POT matplotlib
+
+
+2. Run the code 
+    Example
 .. code-block:: python
 
     from GSOT import get_transport_plan,get_edges_from_plan
@@ -55,34 +72,8 @@ Example
 
 
 
-Installation
-------------
 
-This project can be installed from its git repository. 
-
-1. Obtain the sources by::
-
-    git clone https://github.com/lllllearn/SparseFlexibility
-
-
-
-2. Install the dependencies::
-
-    # via pip
-
-    pip install numpy scipy  POT matplotlib
-
-
-    # via conda
-
-    conda install numpy scipy POT matplotlib
-
-
-3. Put the program that needs to be run into the GSOT directory
-
-    GSOT
-      │    
-      |-- example.py
+   
       
 
 
