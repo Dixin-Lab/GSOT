@@ -70,13 +70,13 @@ Example
 
 A MindSpore-based implementation of GSOT
 =========
+In this work, we have also implemented GSOT based on **MindSpore 2.0.0**. You can find the MindSpore-based implementation in the `'GSOT-mindspore' <https://github.com/Dixin-Lab/GSOT/tree/master/GSOT-mindspore>`_ directory of this project.
+
 
 MindSpore
 ------------
-    **MindSpore** is an open-source deep learning framework developed by Huawei. It's designed to provide flexibility and scalability for machine learning and artificial intelligence model development.
+    MindSpore is an open-source deep learning framework developed by Huawei. It's designed to provide flexibility and scalability for machine learning and artificial intelligence model development.
 
-
-In this work, we have also implemented GSOT based on **MindSpore 2.0.0**. You can find the MindSpore-based implementation in the `'GSOT-mindspore' <https://github.com/Dixin-Lab/GSOT/tree/master/GSOT-mindspore>`_ directory of this project.
 
 **Before using this version, please ensure you have MindSpore installed**.
     
@@ -88,8 +88,9 @@ In this work, we have also implemented GSOT based on **MindSpore 2.0.0**. You ca
 
     3. Execute the selected installation steps according to the official guide. 
 
-    #  Additional Resources
-    For additional resources and documentation on using MindSpore, visit the official MindSpore website and documentation:
+
+
+For additional resources and documentation on using MindSpore, visit the official MindSpore website and documentation:
 
     - `MindSpore Official Website <https://www.mindspore.cn/en/>`_
     - `MindSpore Documentation <https://www.mindspore.cn/docs/zh-CN/r2.0/index.html>`_
