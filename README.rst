@@ -3,9 +3,7 @@
 Group Sparse Optimal Transport (GSOT)
 =========
 
-The official github for IJCAI 2023 paper "Group Sparse Optimal Transport for Sparse Process Flexibility Design"
-
-
+The official github for IJCAI 2023 paper - `"Group Sparse Optimal Transport for Sparse Process Flexibility Design" <https://www.ijcai.org/proceedings/2023/679>`_
 
 1. Install the dependencies
 ------------
@@ -67,6 +65,41 @@ Example
     _,max_profit = evaluate_net_profit(full_edges,simulator.cost, supply, test_demand)
 
     print("full-profit:",max_profit)
+
+
+
+A MindSpore implementation of GSOT
+=========
+
+
+**MindSpore** is an open-source deep learning framework developed by Huawei. It's designed to provide flexibility and scalability for machine learning and artificial intelligence model development.
+
+In this work, We have also implemented GSOT based on MindSpore 2.0.0. You can find the MindSpore-based implementation in the 'GSOT-mindspore' directory of this project.
+Before using this version, please ensure you have MindSpore installed.
+    
+    # install MindSpore
+    
+    1. Visit the MindSpore official website for the latest installation guide: - `MindSpore Installation Guide <https://www.mindspore.cn/install>`_
+
+    2. Choose the appropriate installation method based on your operating system and hardware configuration, as outlined in the official guide.
+
+    3. Execute the selected installation steps according to the official guide. 
+
+    # Additional Resources
+
+    For additional resources and documentation on using MindSpore, visit the official MindSpore website and documentation:
+
+    - `MindSpore Official Website <https://www.mindspore.cn/en/>`_
+    - `MindSpore Documentation <https://www.mindspore.cn/docs/zh-CN/r2.0/index.html>`_
+    
+
+
+
+    
+
+
+    
+
 
     
 
